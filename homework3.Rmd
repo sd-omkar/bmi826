@@ -67,5 +67,11 @@ pval <- mean(abs(permt) >= abs(tobs))
 ```
 
 ```{r save_results}
-save(permt, tobs, pval, file="permt_results.RData")
+save(permt, tobs, pval, file="homework3.RData")
+```
+
+```{r plot_permutations}
+hist(permt, breaks=200, xlab="t-statistic", las=1,
+     main = paste("P-value =", round(pval, 3)))
+abline(v=tobs, lwd=2, col="violetred")
 ```

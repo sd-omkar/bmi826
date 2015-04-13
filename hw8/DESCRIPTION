@@ -1,0 +1,9 @@
+Package: hw8
+Type: Package
+Title: cube
+Version: 1.0
+Date: 2015-04-13
+Author: Omkar Deshmukh <odeshmukh@wisc.edu>
+Maintainer: Omkar Deshmukh <odeshmukh@wisc.edu>
+Description: Simple R function to return cube of input
+License: None

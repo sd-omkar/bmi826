@@ -7,3 +7,4 @@ Author: Omkar Deshmukh <odeshmukh@wisc.edu>
 Maintainer: Omkar Deshmukh <odeshmukh@wisc.edu>
 Description: Simple R function to return cube of input
 License: None
+Suggests: testthat

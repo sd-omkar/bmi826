@@ -7,9 +7,9 @@ test_that("Get cubes", {
   c <- cube(-1)
 
   expect_that(a, is_a("numeric") )
-  expect_eual(a, 8)
+  expect_equal(a, 8)
   expect_that(b, is_a("numeric") )
-  expect_eual(b, 0)
+  expect_equal(b, 0)
   expect_that(c, is_a("numeric") )
-  expect_eual(c, -1)
+  expect_equal(c, -1)
 })
